@@ -1,71 +1,62 @@
-# Getting Started with Create React App
+# ECOMZY
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**_Empowering Your Online Shopping Experience!_**
 
-## Available Scripts
+## 💭 Motivation
 
-In the project directory, you can run:
+We've designed our platform to offer you a smooth and intuitive shopping experience. From effortless navigation to secure checkout, we're committed to making your journey with us as enjoyable as possible.
 
-### `npm start`
+## Deployed Link 
+<a href="https://ecomzy-omega.vercel.app/">Ecomzy</a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🧰 Tools and Technologies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> 
+<img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> 
+<img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> 
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>
+<img src="https://img.shields.io/badge/redux%20-%23593d88.svg?&style=for-the-badge&logo=redux&logoColor=white"/> 
+<img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/>
+<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+<img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
 
-### `npm test`
+-   **UI Interface:** ReactJS
+-   **State Management:** Redux
+-   **Styling:** Sass
+-   **API:** Fake Store API
+-   **Deployment:** Vercel
+-   **Version Control:** Git and GitHub
+-   **Code Editor:** VS Code
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📋 Features
 
-### `npm run build`
+-   [x] Interactive Navbar and Item cards
+-   [x] "Add" item to cart
+-   [x] "Remove" item from cart will appear only for items already added
+-   [x] Toaster for every item added or removed 
+-   [x] Jumping animation to show no. of items added in cart
+-   [x] Navigation provided between cart and home page
+-   [x] Customized loader 
+-   [x] Checkout Page which has the Total items and Billing Amount
+-   [x] Customize search using Category
+-   [x] Sort Results from low to high or high to low based on price
+-   [x] Search a particular product based on its title
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔮 Under Development
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   [ ] Add a pagination component 
+-   [ ] Create login/sign-up for users
+-   [ ] Store the items for each user
+-   [ ] Authentication and Authorization of each user
+-   [ ] Recommend an item
+-   [ ] Add a payment page
+-   [ ] Allow user to add item to watchlist
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔒 License
 
-### `npm run eject`
+This project is licensed under the terms of the [MIT license](https://choosealicense.com/licenses/mit/).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Ecomzy
