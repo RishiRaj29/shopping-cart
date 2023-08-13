@@ -1,0 +1,38 @@
+@import "colors";  
+
+.cart-empty
+{
+    height: 47rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cart-empty h1
+{
+    color: $text1;
+}
+
+.cart-empty button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 3px solid $green;
+    border-radius: 15px;
+    background-color: $green;
+    height: 4rem;
+    width: 12rem;
+    color: $white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cart-empty button:hover
+{
+    background-color: $white;
+    color: $green;
+}

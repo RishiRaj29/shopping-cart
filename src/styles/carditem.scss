@@ -1,0 +1,107 @@
+@import "colors";
+
+.card-container
+{
+    height: 25rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $white;
+    border-radius: 20px;
+    box-shadow: 0 20px 20px rgba(145, 143, 143, 0.6);
+    padding: 2rem;
+    margin: 1.3rem;
+}
+
+.card-container:hover
+{
+    transform: scale(1.2);
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+
+.card-title
+{
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: $dark;
+    font-size: 1.5rem;
+    height: fit-content;
+}
+
+.card-desc
+{
+    justify-content: center;
+    align-items: center;
+    color: $text2;
+    font-size: 0.8rem;
+}
+
+.card-img
+{
+    height: 12rem;
+    width: 8rem;
+    > img
+    {
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.card-info
+{
+    width: 80%;
+    height: 4rem;
+    margin: 0.8rem;
+}
+
+.card-price
+{
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $green;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-btn
+{
+    float: right;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 3px solid $dark;
+    border-radius: 20px;
+    background-color: transparent;
+    height: fit-content;
+    width: 120%;
+    color: $dark;
+    font-size: 0.9rem;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    padding: 0.8rem;
+}
+
+.btn:hover
+{
+    background-color: $dark;
+    border: 3px solid $dark;
+    border-radius: 20px;
+    color: $white;
+}

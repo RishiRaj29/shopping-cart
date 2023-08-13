@@ -1,0 +1,98 @@
+@import "colors"; 
+
+.cart-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: auto;
+    height: max-content;
+}
+
+.cart-container-parent
+{
+    display: flex;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.cart-item-container
+{
+    margin: 1rem;
+    margin-left: 3rem;
+    height: fit-content;
+}
+
+.cart-item-info-container
+{
+    height: 40rem;
+    padding: 1rem;
+    justify-content: left;
+    margin-left: 25rem;
+}
+
+.cart-item-info-container h3
+{
+    color: rgb(22,100,52);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.cart-item-info-container h1
+{
+    color: rgb(22,128,60);
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.cart-item-info-details
+{
+    margin-top: 13rem;
+    padding: 0.5rem;
+}
+
+.cart-item-info-length p
+{
+    color: $text1;
+    font-size: 1.3rem;
+}
+
+.cart-item-info-length span
+{
+    color: $dark;
+}
+
+.cart-item-info-amount p
+{
+    color: $text1;
+    font-size: 1.5rem;
+}
+
+.cart-item-info-amount span
+{
+    color: $dark;
+    font-weight: bold;
+}
+
+button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 3px solid $green;
+    border-radius: 15px;
+    background-color: $green;
+    height: 3.5rem;
+    width: 95%;
+    color: $white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+button:hover
+{
+    background-color: $white;
+    color: $green;
+}
